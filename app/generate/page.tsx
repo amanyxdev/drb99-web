@@ -160,7 +160,7 @@ export default function GeneratePage() {
 
   return (
     <div className="relative flex min-h-screen flex-col items-center bg-[#09090b] px-6 py-12 font-sans text-zinc-50 selection:bg-zinc-800">
-      <div className="absolute top-6 left-6 md:top-8 md:left-8 z-20">
+      <div className="relative md:absolute top-0 left-0 md:top-8 md:left-8 z-20 w-full md:w-auto mb-6 md:mb-0">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-zinc-500 transition-colors hover:text-white"
@@ -170,7 +170,7 @@ export default function GeneratePage() {
         </Link>
       </div>
 
-      <div className="relative z-10 mt-4 w-full max-w-3xl space-y-8 md:mt-8">
+      <div className="relative z-10 w-full max-w-3xl space-y-8">
         <div className="text-center space-y-3 pb-4">
           <h1 className="text-3xl font-medium tracking-tight text-white">
             Generate your package
