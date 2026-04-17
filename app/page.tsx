@@ -23,10 +23,10 @@ export default function Home() {
           Turn your Go binaries into installable npm packages with the release wiring already handled.
         </p>
 
-        <div className="mt-12 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
+        <div className="mt-12 flex w-full flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:justify-start">
           <Link
             href="/generate"
-            className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-white px-8 text-sm font-semibold text-black shadow-[0_0_40px_-15px_rgba(255,255,255,0.5)] transition-all hover:scale-[1.02] hover:bg-zinc-200 active:scale-95 sm:h-14"
+            className="group flex h-12 w-full sm:w-auto items-center justify-center gap-2.5 rounded-full bg-white px-8 text-sm font-semibold text-black shadow-[0_0_40px_-15px_rgba(255,255,255,0.5)] transition-all hover:scale-[1.02] hover:bg-zinc-200 active:scale-95 sm:h-14"
           >
             Start Generating
             <svg
@@ -41,7 +41,7 @@ export default function Home() {
           </Link>
           <Link
             href="#"
-            className="flex h-12 sm:h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-8 text-sm font-medium text-zinc-300 transition-all hover:bg-white/10 hover:text-white active:scale-95"
+            className="flex h-12 w-full sm:w-auto sm:h-14 items-center justify-center rounded-full border border-white/10 bg-white/5 px-8 text-sm font-medium text-zinc-300 transition-all hover:bg-white/10 hover:text-white active:scale-95"
           >
             Learn More
           </Link>
